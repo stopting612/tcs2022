@@ -28,7 +28,7 @@ const about_tcs = (result: any) => {
 
 export async function getServerSideProps({ locale }: any) {
 
-  const res = await fetch('https://tcs2022.onrender.cpm/api/about_tcs')
+  const res = await fetch('https://tcs2022.vercel.app/api/about_tcs')
   const result = await res.json()
   console.log(result)
   // return props
