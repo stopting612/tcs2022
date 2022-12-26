@@ -36,7 +36,7 @@ const HomeBanner = () => {
           </div>
           <div className={styles.home_startSurvey}>
             <Link href="/online-survey">
-              <a>填報網上問卷或預約訪問123</a>
+              <a>填報網上問卷或預約訪問</a>
             </Link>
           </div>
         </div>

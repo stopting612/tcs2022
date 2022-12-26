@@ -5,6 +5,7 @@ import { Button, Link } from "react-scroll/modules";
 import FaqCard from "../../Components/FaqCard/FaqCard";
 import Navbar from "../../Components/Navbar";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { withTranslation } from 'next-i18next'
 
 const faq = (result: any) => {
   const data = result.result
@@ -115,4 +116,4 @@ export async function getServerSideProps({ locale }: any) {
   }
 }
 
-export default faq;
+export default withTranslation('navbar')(faq)
