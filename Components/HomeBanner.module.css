@@ -10,7 +10,7 @@
 .wrap {
         margin: 0 auto;
         max-width: 1180px;
-        margin-top: 60px;
+        margin-top: 157px;
 }
 
 .home_logo_container{
@@ -75,7 +75,7 @@
 .home_obj_wrap{
         background: url('/bg_obj.png') 50% no-repeat;
         background-size: 1260px;
-        padding: 40px;
+        padding: 0;
         margin-top: -250px;
         position: relative;
 }
@@ -177,6 +177,11 @@
 .wrap {
 
         margin-top: 60px;
+}
+
+.home_obj{
+        padding: -12px 100px;
+
 }
 
 
